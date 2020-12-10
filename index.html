@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Bootstrap-estilos -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/b1dc660265.js" crossorigin="anonymous"></script>
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>FES Arag&oacute;n, UNAM</title>
+</head>
+
+<body>
+    <div class="container cuerpo-principal pb-5">
+
+        <!-- <Cabecera> -->
+        <header class="sticky-top">
+            <div class="row nav rounded-top align-items-stretch justify-content-between bg-white"
+                style="padding-bottom: 10px; padding-left: 15px;padding-top: 5px;">
+                <div class="d-flex align-items-center justify-content-center justify-content-lg-start" id="logo-custom">
+                    <img src="img/logosunamfes.jpg" alt="UNAM, FES Arag&oacute;n" height="89" />
+                </div>
+            </div>
+        </header>
+        <!-- </Cabecera> -->
+
+        <!-- <Menu rapido> -->
+        <h1>PROGRAMA INSTITUCIONAL DE TUTOR&#205;AS</h1>
+        <hr>
+        <section class="row justify-content-center">
+            <div class="col-12 col-lg-10">
+                <nav class="bg-gray" id="menu-rapido">
+                    <ul class="d-flex text-center flex-column flex-sm-row justify-content-center flex-wrap p-0">
+                        <li class="nav-item">
+                            <a onclick="ir('inicio')" class="nav-link active">Inici&oacute;</a>
+                        </li>
+                        <li class="nav-item">
+                            <a onclick="ir('como-tutorias')" class="nav-link active">&iquest;C&oacute;mo se realiza la tutor&iacute;a?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a onclick="ir('preg-fecuentes')" class="nav-link active">Preguntas frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a onclick="ir('enlaces')" class="nav-link active">Enlaces de inter&eacute;s</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <!-- </Menu rapido> -->
+
+        <!-- <Presentación> -->
+        <section id="inicio" class="m-scroll">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                    <h2>Presentación</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div id="icono-principal" class="col-12 col-lg-1"><i class="fas fa-book-reader"></i></div>
+                <div class="col-12 col-lg-9 d-flex align-items-lg-center">
+                    <p class="text-justify">
+                        El Programa Institucional de Tutor&#237;as (PIT) se encuentra a cargo de la Divisi&#243;n de Humanidades y Artes, quien coordina y dirige el debido seguimiento y registro de la acci&#243;n tutorial.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-10">
+                    <p class="w-100 d-block">Dentro de los prop&#243;sitos del PIT se encuentran:</p>
+                    <ul class="mb-4 pl-3 pl-sm-4">
+                        <li class="text-justify mt-1">Contribuir al desarrollo acad&#233;mico, a la superaci&#243;n personal y profesional de la comunidad estudiantil;</li>
+                        <li class="text-justify mt-1">Favorecer el proceso de integraci&#243;n de estudiantes en el quehacer universitario;</li>
+                        <li class="text-justify mt-1">Apoyar a la comunidad estudiantil en la detecci&#243;n de problemas que se le presentan durante el proceso de ense&#241;anza-aprendizaje, analizando las posibles soluciones;</li>
+                        <li class="text-justify mt-1">Contribuir a la eficiencia terminal de estudiantes.</li>
+                    </ul>
+                    <p class="text-justify">
+                        El PIT cuenta con estrategias para atender a la poblaci&#243;n desde el primer ingreso, hasta los &#250;ltimos semestres de las carreras que se imparten en la Facultad, focalizando la atenci&#243;n a estudiantes del primer semestre con la finalidad de brindarles el apoyo en los ejes de desarrollo acad&#233;mico, desarrollo personal y desarrollo profesional, con miras a favorecer su permanencia en la instituci&#243;n.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+        </section>
+        <!-- </Presentación> -->
+
+        <!-- <Video y responsable> -->
+        <section>
+            <div class="row mt-4 justify-content-center align-items-center">
+                <div class="col-lg-10 col-12">
+                    <span class="text-center ml-2">Video de presentaci&#243;n:</span>
+                </div>
+                <div class="col-lg-6 col-xl-5">
+                    <iframe id="video-principal" class="mx-auto d-block" src="https://www.youtube.com/embed/CNuTqMMt96U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-4 col-xl-5 ">
+                    <div class="row bg-gray mt-3 mt-lg-0">
+                        <div class="col-6 d-flex flex-column justify-content-around align-items-center">
+                            <img src="img/rosa-lucia-mata-ortiz.jpg" id="responsable" class="mt-3 rounded-circle" alt="">
+                            <h3 class="h5 mt-2 mb-0 text-center">Responsable</h3>
+                            <h4 class="h6 text-center">Rosa Mata Ortiz</h4>
+                        </div>
+                        <div class="col-6 d-flex flex-column justify-content-around">
+                            <div>
+                                <h3 class="h6 mt-3 mb-0">Horario</h3>
+                                <p class="mb-2 mb-xl-3">
+                                    De lunes a viernes de 10:00 a 15:00 h y de 17:00 a 20:00 h
+                                </p>
+                            </div>
+                            <div>
+                                <h3 class="h6 mb-0">Tel&#233;fono(s)</h3>
+                                <p class="mb-2 mb-xl-3">
+                                    55 5623 0952
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- </Video y responsable> -->
+
+
+        <!-- <Como se realiza la tutoria> -->
+        <section id="como-tutorias" class="m-scroll">
+            <div class="row mt-4 justify-content-center align-items-center">
+                <div class="col-lg-10 col-12">
+                    <h2>&#191;C&#243;mo se realiza la tutor&#237;a?</h2>
+                    <hr>
+                    <ol class="pl-3 pl-sm-4">
+                        <li class="text-justify mt-1">
+                            Durante el periodo intersemestral los Enlaces Acad&#233;micos del PIT, realizan el Plan de Trabajo del Tutorado, el cual tiene el objetivo de apoyar a tutores grupales, sugiriendo una serie de actividades a realizar a lo largo del semestre y pueden ser modificadas a consideraci&#243;n dependiendo de las necesidades de la comunidad estudiantil;
+                        </li>
+                        <li class="text-justify mt-1">Las tutor&#237;as se desarrollan desde tres dimensiones:
+                            <ol type="a">
+                                <li class="text-justify mt-1">
+                                    Informaci&#243;n: Se realiza durante los primeros semestres (primero y segundo) y est&#225; enfocada a fortalecer la identidad universitaria de estudiantes.
+                                </li>
+                                <li class="text-justify mt-1">
+                                    Formaci&#243;n: Se realiza de cuarto a sexto semestre y fortalece la formaci&#243;n acad&#233;mica.
+                                </li>
+                                <li class="text-justify mt-1">
+                                    Orientaci&#243;n: Se realiza de s&#233;ptimo a d&#233;cimo semestre (seg&#250;n el plan de estudios de la carrera) y permite orientar a la comunidad estudiantil para la realizaci&#243;n de tr&#225;mites que beneficien la culminaci&#243;n de su egreso y titulaci&#243;n de manera satisfactoria.
+                                </li>
+                            </ol>
+                        </li>
+                        <li class="text-justify mt-1">
+                            De manera diferenciada y en funci&#243;n de cada momento de su trayectoria acad&#233;mica, la comunidad estudiantil tiene derecho y oportunidad de recibir la tutor&#237;a sin necesidad de registrarse de manera individual ni realizar tr&#225;mite alguno.
+                        </li>
+                        <li class="text-justify mt-1">
+                            Seguimiento de actividades: Tutores firman el formato de seguimiento para dar fe de las actividades que han trabajado en las sesiones con estudiantes. Asimismo, al finalizar el semestre, estudiantes entregan un reporte de actividades al Programa Institucional de Tutor&#237;as y llenan de forma electr&#243;nica en el Sistema de Seguimiento de la Tutor&#237;a (SISeT) dichas actividades. Al final del semestre el Sistema generan su constancia como tutorados.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <!-- </Como se realiza la tutoria> -->
+
+        <!-- <Preguntas frecuentes> -->
+        <section id="preg-fecuentes" class="m-scroll">
+            <div class="row mt-4 justify-content-center align-items-center">
+                <div class="col-lg-10 col-12">
+                    <h2>Preguntas frecuentes</h2>
+                    <hr>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item cr-pointer" data-toggle="modal" data-target="#que-tutorias">
+                            &iquest;Qu&eacute; es la tutor&iacute;a?</li>
+                        <li class="list-group-item cr-pointer" data-toggle="modal" data-target="#donde-fundamentada">
+                            &iquest;D&oacute;nde se encuentra fundamentada la tutor&iacute;a?</li>
+                        <li class="list-group-item cr-pointer" data-toggle="modal" data-target="#tienen-derecho">&iquest;Qui&eacute;nes tienen derecho a la tutor&iacute;a?</li>
+                        <li class="list-group-item cr-pointer" data-toggle="modal" data-target="#derecho-tutor">&iquest;Tengo derecho de contar con un tutor o tutora desde el inicio de la carrera hasta el &uacute;ltimo semestre?</li>
+                        <li class="list-group-item cr-pointer" data-toggle="modal" data-target="#no-asignado">&iquest;Qu&eacute; puedo hacer si no tengo tutor asignado y requiero de tutor&iacute;as?</li>
+                        <li class="list-group-item cr-pointer" data-toggle="modal" data-target="#derechos-tutorado">&iquest;Qu&eacute; derechos tengo como tutorado?</li>
+                        <li class="list-group-item cr-pointer" data-toggle="modal" data-target="#responsabilidades">&iquest;Cu&aacute;les son mis responsabilidades como estudiante?</li>
+                        <li class="list-group-item cr-pointer" data-toggle="modal" data-target="#duracion-tutoria">&iquest;Cu&aacute;l es la duraci&oacute;n de la tutor&iacute;a?
+                        </li>
+
+                        <li class="list-group-item cr-pointer" data-toggle="modal" data-target="#carga-horas">&iquest;Qu&eacute; pasa si el tutorado que se asigna al tutor/tutora no est&aacute; dentro de su carga horaria y se le complica tomar tutor&iacute;as dentro del grupo que no le corresponde?
+                        </li>
+                        <li class="list-group-item cr-pointer" data-toggle="modal" data-target="#cambiar-tutorado">&iquest;Es importante hacer de conocimiento al PIT sobre la decisi&oacute;n de cambiar la condici&oacute;n de tutorado de grupo por un tutorado individual?
+                        </li>
+                        <li class="list-group-item cr-pointer" data-toggle="modal" data-target="#entregar-formato">&iquest;Cu&aacute;ndo debo entregar el Formato de seguimiento de tutor&iacute;as?
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- </Preguntas frecuentes> -->
+
+        <!-- <Enlaces de interés> -->
+        <section id="enlaces" class="m-scroll">
+            <div class="row mt-4 justify-content-center align-items-center">
+                <div class="col-lg-10 col-12">
+                    <h2>Enlaces de inter&eacute;s</h2>
+                    <hr>
+                    <span>Para tutores: </span>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item"><a target="_blank" href="http://www.tutoria.unam.mx/">Sistema Institucional de Tutor&iacute;a</a></li>
+                        <li class="list-group-item"><a target="_blank" href="http://tutoria.cuaed.unam.mx/">Curso de Inducci&oacute;n</a></li>
+                        <li class="list-group-item"><a target="_blank" href="http://tutoria.unam.mx/siset/">Seguimiento de Tutor&iacute;a</a></li>
+                        <li class="list-group-item"><a target="_blank" href="https://www.saber.unam.mx:6061/saber/faces/home/home.jsp">Proyecto SABER UNAM</a></li>
+                    </ul>
+                    <span class="mt-4 d-block">Para tutorados: </span>
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item"><a target="_blank" href="https://www.saber.unam.mx:6061/saber/faces/home/home.jsp">Proyecto SABER UNAM</a></li>
+                        <li class="list-group-item"><a target="_blank" href="https://www.aragon.unam.mx/fes-aragon/public_html/documents/cise/formato-seguimiento-tutorias.pdf">Formato de seguimiento para tutor&iacute;as</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- </Enlaces de interés> -->
+
+    </div>
+
+    <footer class="bg-grey container rounded"></footer>
+
+    <!-- <Modal> -->
+
+    <!-- <Modal: ¿Qué es la tutoría?> -->
+    <div class="modal fade" id="que-tutorias" tabindex="-1" aria-labelledby="que-tutoriasLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase" id="que-tutoriasLabel">&iquest;Qu&eacute; es la tutor&iacute;a?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-justify">
+                        Es un proceso de acompa&ntilde;amiento integral de tutores hacia estudiantes, que permite el desarrollo profesional y humano, fortaleciendo habilidades con el objetivo de evitar el abandono escolar, el rezago y la deserci&oacute;n escolar, mediante pl&aacute;ticas y actividades que se realizan dentro del grupo, en donde se aclaran dudas de un tema en espec&iacute;fico o bien dando seguimiento a las necesidades detectadas.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </Modal: ¿Qué es la tutoría?> -->
+
+    <!-- <Modal: ¿Dónde se encuentra fundamentada la tutoría?> -->
+    <div class="modal fade" id="donde-fundamentada" tabindex="-1" aria-labelledby="donde-fundamentadaLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase" id="donde-fundamentadaLabel">&iquest;D&oacute;nde se encuentra fundamentada la tutor&iacute;a?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-justify">
+                        En los puntos 3 y 3.5 del Plan de Desarrollo Institucional de la UNAM 2015-2019 del Dr. Enrique Luis Graue Wiechers, Rector de la UNAM, y en el Plan de Desarrollo Institucional 2016-2020 del Mtro. en Ingenier&iacute;a Fernando Macedo Chagolla, Director de la FES Arag&oacute;n, eje 1.2 Gesti&oacute;n e Impartici&oacute;n de la Docencia en Licenciatura y Posgrado, punto 10.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </Modal: ¿Dónde se encuentra fundamentada la tutoría?> -->
+
+    <!-- <Modal: ¿Quiénes tienen derecho a la tutoría?> -->
+    <div class="modal fade" id="tienen-derecho" tabindex="-1" aria-labelledby="tienen-derechoLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase" id="tienen-derechoLabel">&iquest;Qui&eacute;nes tienen derecho a la tutor&iacute;a?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-justify">
+                        Estudiantes de la FES Arag&oacute;n tienen derecho a la tutor&iacute;a sin excepci&oacute;n alguna.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </Modal: ¿Quiénes tienen derecho a la tutoría?> -->
+
+    <!-- <Modal: ¿Tengo derecho de contar con un tutor o tutora desde el inicio de la carrera hasta el último semestre?> -->
+    <div class="modal fade" id="derecho-tutor" tabindex="-1" aria-labelledby="derecho-tutorLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase" id="derecho-tutorLabel">&iquest;Tengo derecho de contar con un tutor o tutora desde el inicio de la carrera hasta el &uacute;ltimo semestre?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-justify">
+                        S&iacute;, tienes derecho a contar con un tutor/tutora grupal o bien un tutor/tutora individual.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </Modal: ¿Tengo derecho de contar con un tutor o tutora desde el inicio de la carrera hasta el último semestre?> -->
+
+    <!-- <Modal: ¿Qué puedo hacer si no tengo tutor asignado y requiero de tutorías?> -->
+    <div class="modal fade" id="no-asignado" tabindex="-1" aria-labelledby="no-asignadoLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase" id="no-asignadoLabel">&iquest;Qu&eacute; puedo hacer si no tengo tutor asignado y requiero de tutor&iacute;as?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-justify">
+                        Acercarte al Programa Institucional de Tutor&iacute;as (PIT). Los enlaces acad&eacute;micos te dar&aacute;n indicaciones sobre qui&eacute;n te corresponde de acuerdo con tu carrera y grupo. 
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </Modal: ¿Qué puedo hacer si no tengo tutor asignado y requiero de tutorías?> -->
+
+    <!-- <Modal: ¿Qué derechos tengo como tutorado?> -->
+    <div class="modal fade" id="derechos-tutorado" tabindex="-1" aria-labelledby="derechos-tutoradoLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase" id="derechos-tutoradoLabel">¿Qué derechos tengo como tutorado?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-justify">
+                        Tienes derecho a recibir la tutoría, en los horarios de común acuerdo con el grupo, o bien, de acuerdo con la planeación recomendada por los enlaces del área del PIT.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </Modal: ¿Qué derechos tengo como tutorado?> -->
+
+    <!-- <Modal: ¿Cuáles son mis responsabilidades como estudiante?> -->
+    <div class="modal fade" id="responsabilidades" tabindex="-1" aria-labelledby="responsabilidadesLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase" id="responsabilidadesLabel">&iquest;Cu&aacute;les son mis responsabilidades como estudiante?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-justify">
+                        Estar presente en las tutor&iacute;as grupales y/o individuales y entregar en tiempo y forma el formato de seguimiento de tutor&iacute;as.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <Modal: ¿Cuáles son mis responsabilidades como estudiante?> -->
+
+    <!-- <Modal: ¿Cuál es la duración de la tutoría?> -->
+    <div class="modal fade" id="duracion-tutoria" tabindex="-1" aria-labelledby="duracion-tutoriaLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase" id="duracion-tutoriaLabel">&iquest;Cu&aacute;l es la duraci&oacute;n de la tutor&iacute;a?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-justify">
+                        La tutor&iacute;a se imparte una vez al mes, con una duraci&oacute;n de una hora o bien dos tutor&iacute;as de media hora por mes, de acuerdo con las necesidades del grupo.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </Modal: ¿Cuál es la duración de la tutoría?> -->
+
+    <!-- <Modal: ¿Qué pasa si el tutorado que se asigna al tutor/tutora no está dentro de su carga horaria y se le complica tomar tutorías dentro del grupo que no le corresponde?> -->
+    <div class="modal fade" id="carga-horas" tabindex="-1" aria-labelledby="carga-horasLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase" id="carga-horasLabel">&iquest;Qu&eacute; pasa si el tutorado que se asigna al tutor/tutora no est&aacute; dentro de su carga horaria y se le complica tomar tutor&iacute;as dentro del grupo que no le corresponde?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-justify">
+                        Puedes hacer un cambio de Tutorado y realizar el tr&aacute;mite en las oficinas del PIT.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </Modal: ¿Qué pasa si el tutorado que se asigna al tutor/tutora no está dentro de su carga horaria y se le complica tomar tutorías dentro del grupo que no le corresponde?> -->
+
+    <!-- <Modal: ¿Es importante hacer de conocimiento al PIT sobre la decisión de cambiar la condición de tutorado de grupo por un tutorado individual?> -->
+    <div class="modal fade" id="cambiar-tutorado" tabindex="-1" aria-labelledby="cambiar-tutoradoLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase" id="cambiar-tutoradoLabel">&iquest;Es importante hacer de conocimiento al PIT sobre la decisi&oacute;n de cambiar la condici&oacute;n de tutorado de grupo por un tutorado individual?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-justify">
+                        S&iacute; es importante, ya que esa informaci&oacute;n se registra en la base de datos, para que posteriormente, a solicitud del tutorado individual, se le genere una constancia.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </Modal: ¿Es importante hacer de conocimiento al PIT sobre la decisión de cambiar la condición de tutorado de grupo por un tutorado individual?> -->
+
+    <!-- <Modal: ¿Cuándo debo entregar el Formato de seguimiento de tutorías?> -->
+    <div class="modal fade" id="entregar-formato" tabindex="-1" aria-labelledby="entregar-formatoLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase" id="entregar-formatoLabel">&iquest;Cu&aacute;ndo debo entregar el Formato de seguimiento de tutor&iacute;as?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-justify">
+                        El seguimiento se realiza mensualmente en el PIT y debes entregarlo en el Centro Integral de Servicios Estudiantiles (CISE) para su registro de forma obligatoria en las fechas que marca el formato.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </Modal: ¿Cuándo debo entregar el Formato de seguimiento de tutorías?> -->
+    <!-- </Modal> -->
+
+    <!-- <Boton de ir a inicio de pagina> -->
+    <div id="accion-subir"><i class="fas fa-arrow-circle-up"></i></div>
+    <!-- </Boton de ir a inicio de pagina> -->
+
+    <!-- Bootstrap-JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
